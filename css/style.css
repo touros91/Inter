@@ -1,0 +1,225 @@
+/* common  */
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.bg-blu {
+    background-color: #001FA0;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* body  */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* header  */
+header {
+    background-color: #001FA0;
+    padding: 10px 0;
+}
+
+.logo-container {
+    max-width: 50px;
+    margin-right: 5px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+header span {
+    vertical-align: middle;
+    color: white;
+    font-size: 25px;
+}
+
+header .col-9 {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    margin: 0;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+header .col-9 ul li:last-child a {
+    color: #FFDC3B;
+}
+
+header .col-9 ul li a:hover{
+    color: white;
+}
+
+.scudetto {
+    max-width: 100%;
+}
+
+.scudetto img {
+    width: 100%;
+}
+
+
+.btn {
+    padding: 8px 18px;
+    border-radius: 40px;  
+}
+
+.btn.btn-white {
+    border: 1px solid #001FA0;
+    color: #001FA0;
+    background-color: white;
+}
+
+.btn.btn-blu {
+    background-color: #001FA0;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn.btn-black {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn.btn-white:hover {
+    background-color: #001FA0;
+    color: white;
+}
+
+.btn.btn-blu:hover, .btn.btn-black:hover {
+    background-color: white;
+    color: #001FA0;
+}
+
+/* seconda sezione main  */
+
+main section .row {
+    background-color: white;
+}
+
+.san-siro img {
+    width: 100%;
+}
+
+inter-genoa {
+    width: 300px;
+}
+
+.inter-genoa h3 {
+    font-size: 20px;
+}
+
+.inter-genoa p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.inter-genoa i {
+    color: #001FA0;
+    margin: 0 0 20px 20px;
+}
+
+.inter-genoa h6 {
+    color: grey;
+    margin: 10px 0;
+}
+
+.sansiro-small {
+    display: flex;
+    justify-content: space-betweens;
+}
+
+.sansiro-small img {
+    width: 100%;
+}
+
+.sansiro-small a {
+    text-decoration: none;
+    color: black;
+}
+
+.sansirosmall-left, .sansirosmall-right {
+    max-width: 130px;
+}
+
+.sansirosmall-left {
+    margin-right: 30px;
+}
+
+/* terza sezione main  */
+section:nth-child(3) [class*="col"] {
+    position: relative;
+}
+
+section:nth-child(3) [class*="col"] img {
+    width: 100%;
+}
+
+section:nth-child(3) .row {
+    margin: 20px 0;
+}
+
+.data-notizie {
+    font-size: 12px;
+    color: #cdd3ec;
+    padding: 20px;
+}
+
+.info-notizie {
+    font-size: 20px;
+    padding: 0 20px 20px 20px;
+
+
+}
+
+.btn.btn-blu, .btn.btn-black {
+    position: absolute;
+    bottom: 50px;
+}
+
+section:nth-child(3) a {
+    text-decoration: none;
+    color: white;
+}
+
+.notizie-container-blu, .notizie-container-black {
+    height: 450px;
+}
+
+.notizie-container-blu {
+    background-color: #001FA0;
+}
+
+.notizie-container-black {
+    background-color: black;
+}
+
+/* quarta sezione Scopri di più  */

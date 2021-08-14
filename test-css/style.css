@@ -1,0 +1,251 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    background-color: #001FA0;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.btn {
+    padding: 8px 18px;
+    border-radius: 40px;  
+}
+
+.btn.btn-white {
+    border: 1px solid #001FA0;
+    color: #001FA0;
+    background-color: white;
+}
+
+.btn.btn-blu {
+    background-color: #001FA0;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn.btn-black {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn.btn-white:hover {
+    background-color: #001FA0;
+    color: white;
+}
+
+.btn.btn-blu:hover, .btn.btn-black:hover {
+    background-color: white;
+    color: #001FA0;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 100%; 
+}
+
+.header-right ul {
+    list-style: none;
+}
+
+.header-right ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+.header-right ul li:last-child a {
+    color: #FFDC3B;
+}
+
+.header-right ul li a:hover{
+    color: white;
+}
+
+.scudetto {
+    width: 100%;
+}
+
+.scudetto img {
+    width: 100%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.san-siro {
+    max-width: 650px;
+}
+
+.san-siro img {
+    width: 100%;
+}
+
+.inter-genoa {
+    width: 300px;
+}
+
+.inter-genoa h3 {
+    font-size: 20px;
+}
+
+.inter-genoa p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.inter-genoa i {
+    color: #001FA0;
+    margin: 0 0 20px 20px;
+}
+
+.inter-genoa h6 {
+    color: grey;
+    margin: 10px 0;
+}
+
+.sansiro-small {
+    display: flex;
+    justify-content: space-betweens;
+}
+
+.sansiro-small img {
+    width: 100%;
+}
+
+.sansiro-small a {
+    text-decoration: none;
+    color: black;
+}
+
+.sansirosmall-left, .sansirosmall-right {
+    max-width: 130px;
+}
+
+.sansirosmall-left {
+    margin-right: 30px;
+}
+
+/* terza sezione  */
+.notizie-flex-row1, .notizie-flex-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.col-1, .col-2 {
+    position: relative;
+    width: 50%;
+    display: flex;
+}
+
+.col-1 {
+    margin-right: 10px;
+}
+
+.col-1, .col-2, .col-3 {
+    height: 450px;
+}
+
+.col-3 {
+    width: 50%;
+    position: relative;
+    font-size: 15px;
+}
+
+.col-2 {
+    background-color: #001FA1;
+}
+
+.col-4, .col-5 {
+    width: 50%;
+} 
+.col-4 {
+    margin-right: 10px;
+    background-color: #001FA1;
+}
+
+.col-5 {
+    background-color: black;
+}
+
+[class*="col-"] img {
+    width: 100%;
+}
+
+.data-notizie {
+    font-size: 12px;
+    color: #cdd3ec;
+    padding: 20px 20px 0 20px;
+}
+
+.info-notizie {
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.container-80 a {
+    color: white;
+}
+
+.btn.btn-blu, .btn.btn-black {
+    position: absolute;
+    bottom: 0px;
+}
+
+.col-1:last-child {
+    margin-right: 0;
+}
+
