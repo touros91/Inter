@@ -274,7 +274,6 @@ section:nth-child(4) img {
 }
 
 /* quinta sezione main  */
-
 section:nth-child(5) h4, section:nth-child(5) p {
     padding: 20px 0 10px 20px;
 }
@@ -302,7 +301,7 @@ section:nth-child(5) button {
 }
 
 .completo-home {
-    width: 350px;
+    width: 300px;
 }
 
 .completo-home img {
@@ -310,7 +309,7 @@ section:nth-child(5) button {
 }
 
 .maglia-away {
-    width: 200px;
+    width: 180px;
     margin-bottom: 20px;
 }
 
@@ -320,6 +319,15 @@ section:nth-child(5) button {
 
 section:nth-child(5) .col-3 p {
     color: #001FA0;
+}
+
+.store {
+    max-width: 250px;
+    margin: 20px 0;
+}
+
+.store img {
+    width: 100%;
 }
 
 
