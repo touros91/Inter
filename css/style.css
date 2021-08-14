@@ -28,6 +28,7 @@ a {
 /* body  */
 body {
     font-family: 'Oswald', sans-serif;
+    background-color: #F6F6F6;
 }
 
 /* header  */
@@ -80,11 +81,13 @@ header .col-9 ul li a:hover{
     color: white;
 }
 
-/* prima sezione main  */
+/* main  */
 
-main section:first-child {
-    margin-bottom: 40px;
+main section {
+    padding-bottom: 40px;
 }
+
+/* prima sezione main  */
 
 .scudetto {
     max-width: 100%;
@@ -127,6 +130,11 @@ main section:first-child {
     color: #001FA0;
 }
 
+i {
+    color: #001FA0;
+    margin: 0 0 20px 20px;
+}
+
 /* seconda sezione main  */
 
 main section .row {
@@ -137,8 +145,9 @@ main section .row {
     width: 100%;
 }
 
-inter-genoa {
+.inter-genoa {
     width: 300px;
+    padding-top: 20px;
 }
 
 .inter-genoa h3 {
@@ -149,11 +158,6 @@ inter-genoa {
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 20px;
-}
-
-.inter-genoa i {
-    color: #001FA0;
-    margin: 0 0 20px 20px;
 }
 
 .inter-genoa h6 {
@@ -184,16 +188,17 @@ inter-genoa {
 }
 
 /* terza sezione main  */
+
+section:nth-child(3) h3 {
+    padding: 20px;
+}
+
 section:nth-child(3) [class*="col"] {
     position: relative;
 }
 
 section:nth-child(3) [class*="col"] img {
     width: 100%; 
-}
-
-section:nth-child(3) {
-    margin: 40px 0;
 }
 
 .data-notizie {
@@ -267,3 +272,54 @@ section:nth-child(4) img {
     height: 100%;
     object-fit: cover;
 }
+
+/* quinta sezione main  */
+
+section:nth-child(5) h4, section:nth-child(5) p {
+    padding: 20px 0 10px 20px;
+}
+
+section:nth-child(5) button {
+    margin-left: 20px;
+}
+
+.maglie {
+    display: flex;
+}
+
+.maglia-casa, .maglia-trasferta, .maglia-terza {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #001FA0;
+    margin: 30px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.maglia-casa img, .maglia-trasferta img, .maglia-terza img {
+    width: 100%;
+}
+
+.completo-home {
+    width: 350px;
+}
+
+.completo-home img {
+    width: 100%;
+}
+
+.maglia-away {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.maglia-away img {
+    width: 100%;
+}
+
+section:nth-child(5) .col-3 p {
+    color: #001FA0;
+}
+
+
