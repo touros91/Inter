@@ -330,4 +330,30 @@ section:nth-child(5) .col-3 p {
     width: 100%;
 }
 
+/* sesta sezione Palmares */
+section:nth-child(6), section:nth-child(6) .col-12 {
+    background-color: #001FA1;
+    color: white;
+}
+section:nth-child(6) i {
+    color: white;
+}
+
+.palmares-title {
+    margin: 40px 0 80px 0;
+}
+
+.palmares-img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.palmares-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 
