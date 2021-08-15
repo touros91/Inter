@@ -73,7 +73,7 @@ header ul li a {
     color: #C9C9C9;
 }
 
-header .col-9 ul li:last-child a {
+header ul li:last-child a {
     color: #FFDC3B;
 }
 
@@ -315,7 +315,6 @@ section:nth-child(5) button {
 
 .maglia-away {
     max-width: 180px;
-    margin-bottom: 20px;
 }
 
 .maglia-away img {
@@ -328,7 +327,7 @@ section:nth-child(5) .col-3 p {
 
 .store {
     max-width: 250px;
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
 }
 
 .store img {
@@ -359,7 +358,6 @@ section:nth-child(6) i {
 .palmares-img {
     max-width: 100%;
     height: 100px;
-    margin-bottom: 20px;
 }
 
 .palmares-img img {
