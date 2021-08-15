@@ -353,6 +353,47 @@ section:nth-child(6) i {
     height: 100%;
 }
 
+/* footer  */
+footer {
+    background-color: #000000;
+    color: #B3B3B3;
+    font-size: 13px;
+    padding: 20px 0 100px 0;
+}
+
+footer a {
+    color: #B3B3B3;
+}
+
+footer a:hover {
+    color: #001FA1;
+}
+
+footer ul {
+    margin-left: -32px;
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-top {
+    border-bottom: 5px solid #001FA1;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.footer-bottom a li {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+footer h6 {
+    color: white;
+}
+
+
 
 
 
