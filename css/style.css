@@ -142,11 +142,11 @@ main section .row {
 }
 
 .san-siro img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .inter-genoa {
-    width: 300px;
+    max-width: 300px;
     padding-top: 20px;
 }
 
@@ -166,6 +166,7 @@ main section .row {
 }
 
 .sansiro-small {
+    max-width: 100%;
     display: flex;
     justify-content: space-betweens;
 }
@@ -187,14 +188,14 @@ main section .row {
     margin-right: 30px;
 }
 
-/* terza sezione main  */
+/* terza sezione main Notizie  */
 
 section:nth-child(3) h3 {
     padding: 20px;
 }
 
 section:nth-child(3) [class*="col"] {
-    position: relative;
+    margin-bottom: 20px;
 }
 
 section:nth-child(3) [class*="col"] img {
@@ -212,18 +213,13 @@ section:nth-child(3) [class*="col"] img {
     padding: 0 20px 20px 20px;
 }
 
-.btn.btn-blu, .btn.btn-black {
-    position: absolute;
-    bottom: 50px;
-}
-
 section:nth-child(3) a {
     text-decoration: none;
     color: white;
 }
 
 .notizie-container-blu, .notizie-container-black {
-    height: 450px;
+    height: 100%;
     margin: 10px 0;
 }
 
@@ -237,8 +233,12 @@ section:nth-child(3) a {
 
 /* quarta sezione Scopri di più  */
 
-section:nth-child(4) img {
-    width: 100%;
+section:nth-child(4) [class*="col"] img {
+    max-width: 100%; 
+}
+
+section:nth-child(4) .col-12.col-md-4 {
+    margin-bottom: 20px;
 }
 
 .info-notizie.text-center {
@@ -251,22 +251,26 @@ section:nth-child(4) img {
     background-color: #001FA0;
     color: white;
     line-height: 40px;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: 0;
 }
 
-.notizie-container-black.scopri {
-    height: 300px;
+/* .notizie-container-black.scopri {
+    max-height: 300px;
+} */
+.notizie-title {
+    max-height: 40px;
+    line-height: 40px;
 }
-
 .titolo-basso {
     height: 60px;
     line-height: 60px;
 }
 
 .contenitore-immagine {
-    height: 250px;
+    height: 100%;
 }
+
 .contenitore-immagine img {
     width: 100%;
     height: 100%;
@@ -287,8 +291,8 @@ section:nth-child(5) button {
 }
 
 .maglia-casa, .maglia-trasferta, .maglia-terza {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     border-radius: 50%;
     border: 3px solid #001FA0;
     margin: 30px;
@@ -301,7 +305,8 @@ section:nth-child(5) button {
 }
 
 .completo-home {
-    width: 300px;
+    max-width: 300px;
+    margin: 40px 0;
 }
 
 .completo-home img {
@@ -309,7 +314,7 @@ section:nth-child(5) button {
 }
 
 .maglia-away {
-    width: 180px;
+    max-width: 180px;
     margin-bottom: 20px;
 }
 
@@ -323,7 +328,7 @@ section:nth-child(5) .col-3 p {
 
 .store {
     max-width: 250px;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .store img {
@@ -331,12 +336,20 @@ section:nth-child(5) .col-3 p {
 }
 
 /* sesta sezione Palmares */
-section:nth-child(6), section:nth-child(6) .col-12 {
+section:nth-child(6), section:nth-child(6) .row {
     background-color: #001FA1;
     color: white;
 }
+
+section:nth-child(6) h4 {
+    font-size: 23px;
+}
 section:nth-child(6) i {
     color: white;
+}
+
+.palmares {
+    margin-bottom: 30px;
 }
 
 .palmares-title {
@@ -344,13 +357,14 @@ section:nth-child(6) i {
 }
 
 .palmares-img {
+    max-width: 100%;
     height: 100px;
     margin-bottom: 20px;
 }
 
 .palmares-img img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* footer  */
@@ -384,6 +398,10 @@ footer ul li {
     margin-bottom: 40px;
 }
 
+.footer-bottom .row [class*="col"] {
+    margin-bottom: 50px;
+}
+
 .footer-bottom a li {
     font-size: 15px;
     margin-top: 5px;
@@ -391,6 +409,7 @@ footer ul li {
 
 footer h6 {
     color: white;
+    margin-bottom: 20px;
 }
 
 
