@@ -83,7 +83,7 @@ header .col-9 ul li a:hover{
 
 /* main  */
 
-main section {
+main section:not(section:first-child) {
     padding-bottom: 40px;
 }
 
