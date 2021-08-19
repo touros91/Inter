@@ -37,9 +37,12 @@ header {
     padding: 10px 0;
 }
 
+header .container div:last-child {
+    font-size: 18px;
+}
 .logo-container {
-    max-width: 50px;
-    margin-right: 5px;
+    max-width: 100px;
+    margin: 10px;
 }
 
 .logo-container img {
@@ -49,35 +52,19 @@ header {
 header span {
     vertical-align: middle;
     color: white;
-    font-size: 25px;
+    font-size: 40px;
 }
 
-header .col-9 {
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-header ul {
-    margin: 0;
-}
-
-header ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-header ul li a {
+header a {
     text-decoration: none;
     color: #C9C9C9;
 }
 
-header ul li:last-child a {
+header .col-xs-12:last-child a {
     color: #FFDC3B;
 }
 
-header .col-9 ul li a:hover{
+header .col-xs-12 a:hover{
     color: white;
 }
 
