@@ -41,7 +41,7 @@ header .container div:last-child {
     font-size: 18px;
 }
 .logo-container {
-    max-width: 100px;
+    max-width: 70px;
     margin: 10px;
 }
 
@@ -52,7 +52,7 @@ header .container div:last-child {
 header span {
     vertical-align: middle;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 header a {
@@ -357,7 +357,7 @@ footer {
     background-color: #000000;
     color: #B3B3B3;
     font-size: 13px;
-    padding: 20px 0 100px 0;
+    padding: 20px 0;
 }
 
 footer a {
